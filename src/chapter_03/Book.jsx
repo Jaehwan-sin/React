@@ -9,6 +9,6 @@ function Book(props) {
             <h2>{`이 책은 총 ${props.numOfPage}페이지로 이뤄져 있습니다.`}</h2>
         </div>
     );
-}
+} 
 
 export default Book;

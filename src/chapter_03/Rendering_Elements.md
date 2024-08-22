@@ -13,7 +13,7 @@
 ```javascript
 const element = <h1>Hello, world!</h1>;
 ```
-
+ 
 ## 2. ReactDOM.render()
 - ReactDOM.render() 함수는 React 엘리먼트를 특정 DOM 노드에 렌더링한다.
 - 이 함수는 React 애플리케이션의 진입점 역할을 한다.
