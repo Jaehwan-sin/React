@@ -12,6 +12,7 @@
 ### 예시
 ```javascript
 const element = <h1>Hello, world!</h1>;
+```
 
 ## 2. ReactDOM.render()
 - ReactDOM.render() 함수는 React 엘리먼트를 특정 DOM 노드에 렌더링한다.
@@ -22,6 +23,7 @@ const element = <h1>Hello, world!</h1>;
 - React는 Virtual DOM을 사용하여, 변경된 부분만 실제 DOM에 반영함으로써 성능을 최적화합니다.
 
 ## 예시
+```javascript
 function tick() {
   const element = (
     <div>
@@ -33,6 +35,7 @@ function tick() {
 }
 
 setInterval(tick, 1000);
+```
 
 - 이 코드는 1초마다 현재 시간을 포함한 h1, h2 엘리먼트를 갱신하여 다시 렌더링한다.
 
