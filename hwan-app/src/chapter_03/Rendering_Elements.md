@@ -1,6 +1,6 @@
 # Rendering Elements in React
 
-**Rendering Elements**는 React에서 UI를 화면에 표시하는 기본적인 방법을 의미합니다. 
+**Rendering Elements**는 React에서 UI를 화면에 표시하는 기본적인 방법을 의미합니다. <br>
 이 문서에서는 React의 Rendering Elements에 대해 설명합니다.
 
 ## 1. React Element란?
