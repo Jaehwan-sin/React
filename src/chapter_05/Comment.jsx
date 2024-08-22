@@ -1,31 +1,55 @@
 import React from "react";
-import Comment from "./Comment";
 
-const comments = [
-    {
-        name: "이인제",
-        comment: "안녕하세요, 소플입니다.",
+const styles = {
+    wrapper: {
+        margin: 8,
+        padding: 8,
+        display: "flex",
+        flexDirection: "row",
+        border: "1px solid grey",
+        borderRadius: 16,
     },
-    {
-        name: "유재석",
-        comment: "리액트 재미있어요~!",
+    imageContainer: {},
+    image: {
+        width: 50,
+        height: 50,
+        borderRadius: 25,
     },
-    {
-        name: "강민경",
-        comment: "저도 리액트 배워보고 싶어요!!",
+    contentContainer: {
+        marginLeft: 8,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
     },
-];
+    nameText: {
+        color: "black",
+        fontSize: 16,
+        fontWeight: "bold",
+    },
+    commentText: {
+        color: "black",
+        fontSize: 16,
+    },
+};
 
-function CommentList(props) {
+// Comment라는 함수형 컴포넌트를 정의합니다. 이 컴포넌트는 props를 통해 데이터를 받아 UI를 렌더링합니다.
+function Comment(props) {
     return (
-        <div>
-            {comments.map((comment) => {
-                return (
-                    <Comment name={comment.name} comment={comment.comment} />
-                );
-            })}
+        // 전체 컴포넌트를 감싸는 div 요소입니다. wrapper 스타일이 적용됩니다.
+        <div style={styles.wrapper}>
+            <div style={styles.imageContainer}>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
+                    style={styles.image}
+                />
+            </div>
+
+            <div style={styles.contentContainer}>
+                <span style={styles.nameText}>{props.name}</span>
+                <span style={styles.commentText}>{props.comment}</span>
+            </div>
         </div>
     );
 }
 
-export default CommentList;
+export default Comment;
