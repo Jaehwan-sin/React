@@ -7,7 +7,7 @@ function LandingPage(props) {
     const onClickLogin = () => {
         setIsLoggedIn(true);
     };
-
+ 
     const onClickLogout = () => {
         setIsLoggedIn(false);
     };

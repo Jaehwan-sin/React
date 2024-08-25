@@ -8,7 +8,7 @@ const styles = {
         borderBottom: "1px solid grey",
     },
     greeting: {
-        marginRight: 8,
+        marginRight: 8, 
     },
 };
 
