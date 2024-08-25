@@ -21,7 +21,7 @@ const students = [
 
 function AttendanceBook(props) {
     return (
-        <ul>
+        <ul> 
             {students.map((student, index) => {
                 return <li key={student.id}>{student.name}</li>;
             })}
