@@ -16,6 +16,6 @@ function TemperatureInput(props) {
             <input value={props.temperature} onChange={handleChange} />
         </fieldset>
     );
-}
+} 
 
 export default TemperatureInput;

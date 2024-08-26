@@ -13,7 +13,7 @@ function toCelsius(fahrenheit) {
 }
 
 function toFahrenheit(celsius) {
-    return (celsius * 9) / 5 + 32;
+    return (celsius * 9) / 5 + 32; 
 }
 
 function tryConvert(temperature, convert) {
