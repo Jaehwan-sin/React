@@ -55,7 +55,7 @@ root.render(
   </React.StrictMode>
 )
 
-// 조건부 렌더링 (로그인 여부에 따른 화면 표시)
+// 조건부 렌더링 (로그인 여부에 따른 화면 표시) 
 root.render(
   <React.StrictMode>
     <LandingPage/>
